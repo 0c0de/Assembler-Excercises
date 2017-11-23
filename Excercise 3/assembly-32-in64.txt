@@ -1,0 +1,2 @@
+nasm -f elf32 sample01.asm
+ld -s -m elf_i386 -o sample01 sample01.o io.o
